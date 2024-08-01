@@ -1,0 +1,123 @@
+/* styles.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: 2em auto;
+    padding: 2em;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    color: #4CAF50;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 0.5em;
+}
+
+section p {
+    margin-bottom: 1em;
+}
+
+/*ol {
+                <img src="link">
+    font-weight: bold;
+}*/
+
+ol > li::marker {
+    font-weight: bold;
+  }
+
+ul {
+    list-style-type: disc;
+  
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+address {
+    font-style: normal;
+}
+
+address a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+address a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
